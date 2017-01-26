@@ -1,0 +1,93 @@
+body {
+	margin: 0 auto;
+	background-color: black;
+	width: 100%;
+}
+
+.text {
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	font-size: 80px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.table {
+	width: 100%;
+	height: 300px;
+	background-color: white;
+
+	/* add CSS here! */
+	position: fixed;
+	bottom: 0;
+	z-index: -100;
+}
+
+.vase img {
+	height: 300px;
+}
+
+.vase {
+	/* add CSS here! */
+	position: absolute;
+	top: 200px;
+	left: 600px;
+}
+
+.utensils {
+	/* add CSS here! */
+	position: relative;
+	height: 300px;
+	width: 80%;
+	text-align: center;
+
+	/* Uncomment the below property to see the div clearly!*/
+	/*border: 1px solid red;*/
+	
+}
+
+/* Uncomment one or both solutions! */
+
+/* SOLUTION 1: Making the divs inline to each other */
+
+.utensils {
+	top: 200px;
+	left: 200px;
+}
+
+.utensils div {
+	display: inline-block;
+}
+
+/* SOLUTION 2: Manually moving each div */
+/*
+.utensils {
+	top: 200px;
+	left: 100px;
+}
+
+.fork {
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	
+}
+
+.knife {
+	position: absolute;
+	left: 800px;
+	top: 50px;
+}
+
+.spoon {
+	position: absolute;
+	left: 900px;
+	top: 50px;
+}
+
+.dinner {
+	position: absolute;
+	left: 250px;
+}
+*/
+
